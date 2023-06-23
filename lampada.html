@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acenda a Lâmpada</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30pt;
+            margin-bottom: -200px;
+        }                
+        body {
+            background-color: aquamarine;
+        }
+        img#luz {
+            padding: 250px;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Acenda a Lâmpada!</h1>    
+    <img src="imagens/lampada-apagada.jpg" id="luz" alt="Imagem Lâmpada Apagada" onmousemove="mudaLampada('lampada-acesa')" onmouseout="mudaLampada('lampada-apagada')" onclick="mudaLampada('lampada-quebrada')">
+</body>
+<script src="script.js"></script>
+</html>
